@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form action="http://localhost:8000/item" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            
+            <label for="kits">Kits:</label>
+            <input type="number" id="kits" name="kits" required><br><br>
+            
+            <label for="football">Football:</label>
+            <input type="number" id="football" name="football" required><br><br>
+            
+            <label for="Players">Players:</label>
+            <input type="number" id="Players" name="Players" required><br><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
